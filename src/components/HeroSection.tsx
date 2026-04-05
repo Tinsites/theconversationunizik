@@ -6,7 +6,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="hero" className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 pt-16 text-center">
+    <section id="hero" className="relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden px-4 py-20 pt-16 text-center">
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-deep-red/30 via-background to-background" />
 
