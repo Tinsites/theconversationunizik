@@ -26,7 +26,7 @@ export default function FieldsSection() {
           The Conversation Covers
         </motion.h2>
 
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-5">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-5 md:gap-4">
           {fields.map((f, i) => (
             <motion.div
               key={f.name}

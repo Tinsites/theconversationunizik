@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 
 export default function FooterSection() {
   return (

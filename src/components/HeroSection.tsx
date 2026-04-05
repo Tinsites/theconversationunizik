@@ -24,7 +24,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15 }}
-          className="heading-display text-foreground text-5xl leading-tight md:text-7xl lg:text-8xl"
+          className="heading-display text-foreground text-4xl leading-tight md:text-7xl lg:text-8xl"
         >
           Conversation
         </motion.h1>

@@ -19,7 +19,7 @@ export default function FormatSection() {
           What to Expect
         </motion.h2>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-3 md:gap-6">
           {items.map((item, i) => (
             <motion.div
               key={item.title}
