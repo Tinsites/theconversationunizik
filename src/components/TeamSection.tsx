@@ -42,6 +42,10 @@ export default function TeamSection() {
             <span className="font-bold text-gold">Maryjane Ejebughaobi</span>{" "}
             <span className="text-muted-foreground">— Co-Curator, Final-Year Law Student, UNIZIK</span>
           </p>
+          <p className="text-foreground">
+            <span className="font-bold text-gold">Munachi</span>{" "}
+            <span className="text-muted-foreground">— Lead, Volunteers</span>
+          </p>
         </motion.div>
       </div>
     </section>

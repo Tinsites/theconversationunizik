@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 
 export default function FooterSection() {
   return (
@@ -8,11 +8,8 @@ export default function FooterSection() {
         <p className="mb-6 text-sm text-muted-foreground">The Roundtable of Lived and Shared Wisdom</p>
 
         <div className="mb-6 flex items-center justify-center gap-6">
-          <a href="https://instagram.com/theconversation_26" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-gold" aria-label="Instagram">
+          <a href="https://www.instagram.com/theconversation_community" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-gold" aria-label="Instagram">
             <Instagram size={20} />
-          </a>
-          <a href="https://linkedin.com/company/the-conversation" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-gold" aria-label="LinkedIn">
-            <Linkedin size={20} />
           </a>
           <a href="mailto:theconversation2026@gmail.com" className="text-muted-foreground transition-colors hover:text-gold" aria-label="Email">
             <Mail size={20} />

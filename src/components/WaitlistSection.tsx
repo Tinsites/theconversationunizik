@@ -64,7 +64,7 @@ export default function WaitlistSection() {
           </p>
         </motion.div>
 
-        <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-border bg-card p-6">
+        <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-border bg-card p-4 sm:p-6">
           <input type="text" placeholder="Full Name *" required value={form.name} onChange={(e) => update("name", e.target.value)} className={inputClass} />
           <input type="tel" placeholder="WhatsApp Number *" required value={form.whatsapp} onChange={(e) => update("whatsapp", e.target.value)} className={inputClass} />
           <input type="email" placeholder="Email Address *" required value={form.email} onChange={(e) => update("email", e.target.value)} className={inputClass} />
