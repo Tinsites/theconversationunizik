@@ -1,18 +1,32 @@
 import { createFileRoute } from "@tanstack/react-router";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import FormatSection from "@/components/FormatSection";
+import FieldsSection from "@/components/FieldsSection";
+import TeamSection from "@/components/TeamSection";
+import SurveySection from "@/components/SurveySection";
+import WaitlistSection from "@/components/WaitlistSection";
+import FooterSection from "@/components/FooterSection";
 
 export const Route = createFileRoute("/")({
   component: Index,
 });
 
-// IMPORTANT: Fully REPLACE this with your own code
-function PlaceholderIndex() {
-  return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <FormatSection />
+        <FieldsSection />
+        <TeamSection />
+        <SurveySection />
+        <WaitlistSection />
+      </main>
+      <FooterSection />
+    </>
+  );
 }
