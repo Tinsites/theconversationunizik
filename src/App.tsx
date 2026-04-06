@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
@@ -9,11 +8,7 @@ import SurveySection from "@/components/SurveySection";
 import WaitlistSection from "@/components/WaitlistSection";
 import FooterSection from "@/components/FooterSection";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-});
-
-function Index() {
+function App() {
   return (
     <>
       <Navbar />
@@ -30,3 +25,5 @@ function Index() {
     </>
   );
 }
+
+export default App;
