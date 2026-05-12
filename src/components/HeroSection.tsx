@@ -64,16 +64,6 @@ export default function HeroSection() {
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.9 }}
-          className="text-muted-foreground mb-10 space-y-1 text-sm md:text-base"
-        >
-          <p>📅 Saturday, June 6, 2026</p>
-          <p>📍 ASUU Secretariat Hall, Nnamdi Azikiwe University, Awka</p>
-        </motion.div>
-
-        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.05 }}
