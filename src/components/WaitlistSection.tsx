@@ -33,6 +33,9 @@ export default function WaitlistSection() {
     const message = encodeURIComponent(lines.join("\n"));
     window.open(`https://wa.me/2348133032688?text=${message}`, "_blank");
     setSubmitted(true);
+    setTimeout(() => {
+      window.location.href = "https://chat.whatsapp.com/CGwapqc97Do1PEc7qOwFBA";
+    }, 1200);
   };
 
   if (submitted) {
@@ -40,7 +43,17 @@ export default function WaitlistSection() {
       <section id="waitlist" className="px-4 py-20 text-center">
         <div className="mx-auto max-w-2xl">
           <h2 className="heading-display mb-4 text-2xl text-gold">You're on the List!</h2>
-          <p className="text-muted-foreground">We'll reach out when registration opens. Stay tuned.</p>
+          <p className="text-muted-foreground mb-6">
+            Your details have been sent. Redirecting you to the official WhatsApp community now…
+          </p>
+          <a
+            href="https://chat.whatsapp.com/CGwapqc97Do1PEc7qOwFBA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-gold inline-block"
+          >
+            Join the WhatsApp Community
+          </a>
         </div>
       </section>
     );
